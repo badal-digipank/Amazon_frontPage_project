@@ -1,14 +1,14 @@
 import React from 'react';
-import './App.css';
+import './App.scss';
 
 function App() {
   return (
     <div className="App">
-       <div class="grid-container">
+       <div className="grid-container">
             <div className="first-navbar">
                <div className="first-one"> 
-                 <span><img src="am.png" alt="amazon logo" height="50" width="120"/></span>
-                 <span className="in">.in</span>
+                   <span><img src="am.png" alt="amazon logo" height="50" width="120"/></span>
+                   <span className="in">.in</span>
                 </div>
                 <div style={{display:"grid"}}>
                    <span>Hello</span>
